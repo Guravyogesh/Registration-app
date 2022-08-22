@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Follwing Steps to Register-app
+
+First Name and Last Name are mandatory, required text fields and should be greater than 5 characters.
+
+Phone number are required and should be a numeric field.
+
+Country is required choose any one in dropdown
