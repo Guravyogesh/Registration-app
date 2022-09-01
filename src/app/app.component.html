@@ -1,5 +1,7 @@
 <div class="container-fluid py-3">
-  <h1>Register Form Validation</h1>
+  <div class="h-100 d-flex align-items-center justify-content-center">
+    <h1>Register Form Validation</h1>
+  </div>  
   <div class="row justify-content-center my-5">
     <div class="col-4">
       <form [formGroup]="reactiveForm" #form="ngForm">
@@ -67,10 +69,14 @@
             </div>
           </div>
         </div><br>      
-        <div class="row">
+       <div class="row">
           <div class="col mb-2 d-grid">
             <button type="button" class="btn btn-sm btn-primary" (click)="submit()" routerLink="/">Submit</button>
-            <span><button type="button" class="btn btn-sm btn-primary" (click)="onReset()">Reset</button></span>                      
+            <!-- <span><button type="button" class="btn btn-sm btn-primary" (click)="onReset()">Reset</button></span>                       -->
+          </div>
+          <div class="col mb-2 d-grid">
+            <!-- <button type="button" class="btn btn-sm btn-primary" (click)="submit()" routerLink="/">Submit</button> -->
+            <button type="button" class="btn btn-sm btn-danger" (click)="onReset()">Reset</button>                    
           </div>
         </div><br>
         <div class="row">
